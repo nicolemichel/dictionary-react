@@ -1,0 +1,40 @@
+
+.results {
+  padding-left: 2%;
+}
+
+img {
+  background: #4c5c68;
+  height: 200px;
+}
+
+hr {
+  border: 2.5px solid #4C5C68!important;
+  margin: 0;
+}
+#vertical {
+  position: absolute;
+  height: 85%;
+  left: 50.5%;
+  top: 18%;
+}
+
+p {
+  margin: 0;
+}
+
+.fa-play-circle {
+  font-size: 65px;
+  margin-left: 20px;
+}
+.fa-play-circle:hover {
+  color: #4C5C68;
+}
+
+.word-searched {
+  font-weight: 700;
+}
+
+.similar {
+  padding-bottom: 3%;
+}
