@@ -8,7 +8,7 @@ export default function App() {
       <Search />
 
       <p className="text-center pt-3 m-5">
-        <a href="https://github.com/nicolemichel/react-dictionary">
+        <a href="https://github.com/nicolemichel/dictionary-react">
           Open-sourced code by
         </a>
         <strong> Nicole Michel</strong>
