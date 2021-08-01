@@ -1,14 +1,11 @@
-/* colours
-white - #F5F5F5
-grey - #EEECEC
-black - #46494C
-blue - #4C5C68
-*/
 body {
   background:#EEECEC;
   color: #46494C;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
+}
+h1{
+  font-weight: 600;
 }
 
 a {
