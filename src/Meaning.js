@@ -20,6 +20,7 @@ export default function Meaning(props) {
                 <strong>example:</strong> {definition.example}
               </em>
             </span>
+            <br />
             <Synonyms synonyms={definition.synonyms} />
             <hr />
           </div>

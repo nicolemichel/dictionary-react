@@ -1,5 +1,6 @@
 import React from "react";
 
+import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
 
 import "./Results.css";
@@ -49,12 +50,15 @@ export default function Results(props) {
           </div>
           <div className="col-6 definition">
             <div className="row">
-              <div className="col-2">
-                <i className="far fa-play-circle"></i>
-              </div>
               <div className="col">
                 <p className="word-searched">{props.results.word}</p>
-                <p className="pronunciation">/ˈwəndərfəl/</p>
+                {props.results.phonetics.map(function(phonetic, index) {
+                  return (
+                    <div key={index}>
+                      <Phonetic phonetic={phonetic} />
+                    </div>
+                  );
+                })}
               </div>
             </div>
             <hr />

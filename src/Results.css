@@ -23,18 +23,6 @@ p {
   margin: 0;
 }
 
-.fa-play-circle {
-  font-size: 65px;
-  margin-left: 20px;
-}
-.fa-play-circle:hover {
-  color: #4C5C68;
-}
-
 .word-searched {
   font-weight: 700;
-}
-
-.similar {
-  padding-bottom: 3%;
 }
