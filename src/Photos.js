@@ -14,7 +14,7 @@ export default function Photos(props) {
                   <img
                     src={photo.src.tiny}
                     className="img-fluid"
-                    alt="image of what you searched"
+                    alt="what you searched"
                   />
                 </a>
               </div>
