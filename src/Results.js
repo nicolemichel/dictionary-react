@@ -51,7 +51,7 @@ export default function Results(props) {
           <div className="col-6 definition">
             <div className="row">
               <div className="col">
-                <p className="word-searched">{props.results.word}</p>
+                <h2 className="word-searched">{props.results.word}</h2>
                 {props.results.phonetics.map(function(phonetic, index) {
                   return (
                     <div key={index}>
@@ -61,7 +61,6 @@ export default function Results(props) {
                 })}
               </div>
             </div>
-            <hr />
             {props.results.meanings.map(function(meaning, index) {
               return (
                 <div key={index}>
@@ -71,7 +70,6 @@ export default function Results(props) {
             })}
           </div>
         </div>
-        <hr id="vertical" />
       </div>
     );
   } else {

@@ -7,12 +7,13 @@ import "./Meaning.css";
 export default function Meaning(props) {
   return (
     <div className="Meaning">
+    <hr />
       <span>
         <strong>{props.meaning.partOfSpeech}:</strong>
       </span>
       {props.meaning.definitions.map(function(definition, index) {
         return (
-          <div className="Meaning">
+          <span>
             <span key={index} className="definition">
               {definition.definition}
               <br />
@@ -23,7 +24,7 @@ export default function Meaning(props) {
             <br />
             <Synonyms synonyms={definition.synonyms} />
             <hr />
-          </div>
+          </span>
         );
       })}
     </div>

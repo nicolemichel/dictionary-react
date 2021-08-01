@@ -1,9 +1,12 @@
+.Synonyms {
+    margin: 0;
+}
 ul {
-    list-style: none;
-    padding: 0;
-    word-break: break-word;
+  list-style: none;
+  padding: 0;
+  word-break: break-word;
 }
 li {
-    display: inline;
-    margin: 5px; 
+  display: inline;
+  margin: 5px;
 }

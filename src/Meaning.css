@@ -1,3 +1,15 @@
+.Meaning {
+    background: #F5F5F5;
+    color: #46494C;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
+hr {
+  border: 3px solid #4C5C68!important;
+  margin: 10px 0;
+}
+
 .definition {
     padding-left: 2%;
 }

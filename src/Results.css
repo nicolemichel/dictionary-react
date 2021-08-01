@@ -1,22 +1,12 @@
-
-.results {
-  padding-left: 2%;
-}
-
-img {
+.Results {
   background: #4c5c68;
+  color: #EEECEC;
+  border-radius: 15px;
+  padding: 30px;
+}
+img {
+  background: #6D7B84;
   height: 200px;
-}
-
-hr {
-  border: 2.5px solid #4C5C68!important;
-  margin: 0;
-}
-#vertical {
-  position: absolute;
-  height: 85%;
-  left: 50.5%;
-  top: 18%;
 }
 
 p {
@@ -25,4 +15,5 @@ p {
 
 .word-searched {
   font-weight: 700;
+  padding-bottom: 10px;
 }
